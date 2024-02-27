@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background: #191627;
+    font-family: "Inter", sans-serif;
+    padding-top: 50px;
+}
+
+p {
+    color: #f3f3f3;
+}
+.btn-theme {
+    background-color: #5a43cb;
+    color: #fff;
+    border: transparent;
+}
+.btn-theme:hover {
+    background-color: #3c28a3;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #6e57e0;
+}   
+
+.home-pro-img {
+    width: 225px;
+}
+
+.profile-data .btn {
+    width: 9rem;
+}
+
+.profile-data p {
+    width: 40rem;
+}
+
+.about-info-title {
+    display: block;
+    text-align: center;
+    color: #713abe;
+    font-weight: 600;
+}
+
+.about-info-name {
+    font-size: 0.8rem;
+}
+
+.project-box .card {
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+    border: transparent;
+    margin-bottom: 1.5rem;
+}
+
+.project-box .card .img-box {
+    max-height: 225px;
+    min-height: 225px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-text {
+    color: #5b0888;
+}
+
+.link-icon {
+    color: #fff;
+    background-color: #5b0888;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body .link-icon a {
+    color: #fff;
+    transition: all ease-in-out;
+    -webkit-transition: all ease-in-out;
+    -moz-transition: all ease-in-out;
+}
+.card-body .link-icon a:hover {
+    color: #cbaadf; 
+}
+
+.card .img-box img {
+    transition: all 1s;
+    filter: grayscale(var(--value, 100%)); --value: 100%;
+}
+
+.card .img-box:hover img {
+    transform: scale(1.3);
+    filter: grayscale(var(--value, 0%)); --value: 0%;
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #5b0888;
+}
+
+.footer-box a {
+    color: #a19fad;
+    text-decoration: none;
+}
+
+.footer-box svg {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+footer {
+    background-color: #100e1b;
+}
+
+
+@media(max-width:576px) {
+    .profile-data p {
+        width: auto;
+    }
+    .navbar-collapse {
+        background: #673AB7;
+        padding-left: 25px;
+        border-radius: 0.5rem;
+    }
+}
