@@ -19,6 +19,10 @@ p {
     background: #191627;
 }
 
+.logo {
+    width: 50px;
+}
+
 .btn-theme:hover {
     background-color: #3c28a3;
     color: #fff;
@@ -47,8 +51,13 @@ p {
 .about-info-title {
     display: block;
     text-align: center;
-    color: #713abe;
+    color: #009688;
     font-weight: 600;
+    font-size: 35px;
+}
+
+.about-img {
+    width: 75%;
 }
 
 .about-info-name {
