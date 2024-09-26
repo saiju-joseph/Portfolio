@@ -12,6 +12,7 @@ h5 {
 }
 p {
     color: #f3f3f3;
+    font-weight: 300;
 }
 .btn {
     border-radius: 2px;
@@ -23,7 +24,12 @@ p {
     border-radius: 2px;
     padding: 15px 25px;
 }
-
+.btn:focus,
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+    border: transparent;
+}
 .header {
     background: #00253d;
 }
@@ -182,5 +188,12 @@ footer {
         padding-left: 25px;
         border-radius: 0.5rem;
     }
+    .profile-picture {
+        margin-bottom: 30px;
+    }
 }
-
+@media(min-width:992px) {
+    .profile-picture {
+        width: 75%;
+    }
+}
