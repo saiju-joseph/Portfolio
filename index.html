@@ -17,7 +17,7 @@
             <nav class="navbar navbar-expand-lg navbar-light py-2">
                 <div class="container">
                     <a class="navbar-brand text-white" href="#">
-                        <img src="Assets/logo.png" alt="Logo" class="img-fluid logo">
+                        <img src="Assets/logo.svg" alt="Logo" class="img-fluid logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,27 +74,28 @@
                 </div>
                 <div class="col-xl-8 ps-lg-5 pl-lg-5 justify-content-center d-flex flex-column profile-data">
                     <div class=" text-white">
-                        <h1>Hi,<br> I am Saiju Joseph</h1>
-                        <h5 class="text-muted">UI UX Developer</h5>
-                        <p> Passionate UI/UX Developer, along with expertise in HTML5, CSS, JavaScript, Bootstrap and
+                        <h5><span class="fw-light">Hi, I am</span></h5>
+                        <h1 class="fw-bold"> Saiju Joseph</h1>
+                        <h5 class="text-muted">UI / UX Developer</h5>
+                        <p class="mt-5"> Passionate UI/UX Developer, along with expertise in HTML5, CSS, JavaScript,
+                            Bootstrap and
                             React
                             JS</p>
                     </div>
-                    <a class="btn btn-theme mt-5 " href="#location" role="button">Contact Me <span><i
-                                class="fas fa-envelope ps-1"></i></span></a>
+                    <a class="btn btn-theme mt-5 " href="#location" role="button">Contact Me </a>
                 </div>
             </div>
         </div>
     </section>
     <section id="about">
         <div class="container">
-            <div class="row about-me py-5">
+            <div class="row about-me py-5 align-items-center">
                 <div class="col-12 text-center text-white">
                     <h2 class="mb-5">About Me</h2>
                 </div>
                 <div class="col-lg-6 pe-lg-5">
                     <div class="about-img">
-                        <img src="Assets/aboutimg.svg" alt="" class="img-fluid">
+                        <img src="Assets/about-banner.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -111,7 +112,7 @@
                         </p>
                     </div>
 
-                    <div class="about-info  pt-5 pe-lg-5">
+                    <div class="about-info text-center  pt-5 pe-lg-5">
                         <div class="d-flex justify-content-evenly">
                             <div class="text-center">
                                 <span class="about-info-title">08+</span>
@@ -130,7 +131,7 @@
                             </div> -->
                         </div>
                         <a download="" href="Assets/Saiju - Frontend Developer.pdf" class="btn btn-theme mt-5">Download
-                            Resume <span><i class="fas fa-file-download ps-1"></i></span></a>
+                            My Resume</a>
                     </div>
                 </div>
             </div>
@@ -153,8 +154,6 @@
                     <button type="button" class="btn btn-dark m-3">Figma</button>
                     <button type="button" class="btn btn-dark m-3">Adobe Photoshop</button>
                     <button type="button" class="btn btn-dark m-3">Responsive Design</button>
-
-
                 </div>
             </div>
         </div>
@@ -170,11 +169,53 @@
                     <div class="project-box">
                         <div class="card">
                             <div class="img-box">
+                                <img src="Assets/Mellow.png" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <p class="card-text mb-0">Mellow Interiors</p>
+                                <span class="link-icon"><a href="https://mellowinteriors.com/" target="_blank"><i
+                                            class="fas fa-link"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="project-box">
+                        <div class="card">
+                            <div class="img-box">
+                                <img src="Assets/petrotec.png" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <p class="card-text mb-0">Bf - Petrotech</p>
+                                <span class="link-icon"><a href="https://bf-petrotech.com/" target="_blank"><i
+                                            class="fas fa-link"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="project-box">
+                        <div class="card">
+                            <div class="img-box">
+                                <img src="Assets/bollywood.png" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <p class="card-text mb-0">Bollywood Bar & Lounge</p>
+                                <span class="link-icon"><a href="https://bollywoodbarlounge.ca/" target="_blank"><i
+                                            class="fas fa-link"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="project-box">
+                        <div class="card">
+                            <div class="img-box">
                                 <img src="Assets/Sumskar.png" class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body d-flex justify-content-between align-items-center">
                                 <p class="card-text mb-0">Sumskar Systems</p>
-                                <span class="link-icon"><a href="https://sumskar.com/" target="_blank"><i
+                                <span class="link-icon"><a href="http://www.sumskar.com/" target="_blank"><i
                                             class="fas fa-link"></i></a></span>
                             </div>
                         </div>
@@ -314,10 +355,13 @@
             </div>
         </div>
     </footer>
+    <script src=" https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/31c5ce1ad1.js" crossorigin="anonymous"></script>
+    <!-- <script src="js/main.js"></script> -->
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

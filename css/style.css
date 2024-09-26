@@ -3,24 +3,33 @@
 body {
     background: #191627;
     font-family: "Inter", sans-serif;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
+h2,
+h5 {
+    font-weight: 200;
+}
 p {
     color: #f3f3f3;
 }
+.btn {
+    border-radius: 2px;
+}
 .btn-theme {
-    background-color: #5a43cb;
+    background-color: #0071bc;
     color: #fff;
     border: transparent;
+    border-radius: 2px;
+    padding: 15px 25px;
 }
 
 .header {
-    background: #191627;
+    background: #00253d;
 }
 
 .logo {
-    width: 50px;
+    width: 70px;
 }
 
 .btn-theme:hover {
@@ -29,11 +38,39 @@ p {
 }
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-item {
+    position: relative;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    content: "";
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    right: 100%;
+    background: #0071bc;
+    position: absolute;
+    transition: 0.5s;
+    left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 100%;
+}
+
+nav ul li .nav-link:hover:before,
+nav ul li.active .nav-link:before {
+  right: 0;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: #6e57e0;
+    color: #fff;
 }   
 
 .home-pro-img {
@@ -41,7 +78,9 @@ p {
 }
 
 .profile-data .btn {
-    width: 9rem;
+    width: 12rem;
+    border-radius: 2px;
+    padding: 15px 0px;
 }
 
 .profile-data p {
@@ -144,3 +183,4 @@ footer {
         border-radius: 0.5rem;
     }
 }
+
