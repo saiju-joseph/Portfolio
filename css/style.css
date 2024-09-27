@@ -23,6 +23,7 @@ p {
     border: transparent;
     border-radius: 2px;
     padding: 15px 25px;
+    transition: all .3s ease;
 }
 .btn:focus,
 .navbar-toggler:focus {
@@ -41,14 +42,17 @@ p {
 .btn-theme:hover {
     background-color: #3c28a3;
     color: #fff;
+    transform: translateY(-5px);
 }
 .btn-dark {
     position: relative;
+    transition: all .5s ease-in-out;
 }
 .btn-dark:hover {
     border-color: transparent;
     background: transparent;
     color: #fff;
+    transform: translateY(-5px);
 }
 .btn-dark::before {
   content: '';
